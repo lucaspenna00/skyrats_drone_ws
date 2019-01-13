@@ -1,0 +1,8 @@
+prefix=/home/lucas/catkin_ws/devel
+
+Name: gazebo_dev
+Description: Description of gazebo_dev
+Version: 2.7.4
+Cflags: 
+Libs: -L/home/lucas/catkin_ws/devel/lib 
+Requires: 

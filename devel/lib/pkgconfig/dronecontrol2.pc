@@ -1,0 +1,8 @@
+prefix=/home/lucas/catkin_ws/devel
+
+Name: dronecontrol2
+Description: Description of dronecontrol2
+Version: 0.0.0
+Cflags: -I/home/lucas/catkin_ws/devel/include
+Libs: -L/home/lucas/catkin_ws/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/lucas/catkin_ws/install
+
+Name: libmavconn
+Description: Description of libmavconn
+Version: 0.23.0
+Cflags: -I/home/lucas/catkin_ws/install/include -I/usr/include -I/opt/ros/lunar/include
+Libs: -L/home/lucas/catkin_ws/install/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+Requires: 

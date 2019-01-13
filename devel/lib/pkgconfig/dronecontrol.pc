@@ -1,0 +1,8 @@
+prefix=/home/lucas/catkin_ws/devel
+
+Name: dronecontrol
+Description: Description of dronecontrol
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/lucas/catkin_ws/devel/lib 
+Requires: 
