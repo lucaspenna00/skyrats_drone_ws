@@ -5,3 +5,7 @@ This repository contains the drone software architecture developed by Skyrats In
 ## 1. Motor connection
 
 <img src=Motores_Pixhawk.jpeg>
+
+## 2. Raspberry Pi Wiring
+
+<img src=RaspberryPi_Pixhawk_wiring1.jpg>
