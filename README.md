@@ -1,6 +1,9 @@
 # catkin_ws
 
-This repository contains the drone software architecture developed by Skyrats Intelligent Drone Team in order to control the drone and develop its Computational Vision demands
+This repository contains the drone software architecture developed by Skyrats Intelligent Drone Team in order to control the 
+drone and develop its Computational Vision demands
+
+![](droneout.gif)
 
 ## 1. Motor connection
 
