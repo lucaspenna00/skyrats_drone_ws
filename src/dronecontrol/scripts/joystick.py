@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 
 import rospy
@@ -28,7 +29,7 @@ if __name__ == '__main__':
 
 		print("Welcome to Drone Joystick! Press -h to help you! Provided by Skyrats and Turing (Polytechnic School of University of Sao Paulo)")
 
-		print("\n\n w = FORWARD   a = LEFT    d = RIGHT    s = BACK \n  z = UP    x = DOWN    c = STOP \n and -h for help")      
+		print("\n\n w = FORWARD   a = LEFT    d = RIGHT    s = BACK \n  z = UP    x = DOWN    c = STOP \n and -h for help")
 
 		while(True):
 
@@ -70,11 +71,20 @@ if __name__ == '__main__':
 
 				publicaMensagem("stop")
 
+			if (key == "e"):
+
+				publicaMensagem("disarm")
+
+			if (key == "rth"):
+
+				publicaMensagem("returntohome")
+
 			if (key == "-h"):
 
-				print("\n\n w = FORWARD   a = LEFT    d = RIGHT    s = BACK    z = UP    x = DOWN    c = STOP")
-                                print("\n  yh = YAW-HORARIO    ya = YAW-ANTIHORARIO")
+				print("\n\n w = FORWARD   a = LEFT    d = RIGHT    s = BACK    z = UP    x = DOWN    c = STOP     e = DISARM")
+                print("\n  yh = YAW-HORARIO    ya = YAW-ANTIHORARIO    e = DISARMS")
+
 
     except rospy.ROSInterruptException:
-        
+
         pass
