@@ -1,0 +1,36 @@
+## How to install and compile Wifibroadcast
+
+$ git clone github.com/svpcom/wifibroadcast
+
+$ cd wifibroadcast
+
+$ sudo apt-get install libpcap-dev libsodium-dev python-twisted
+
+$ sudo -H pip insall configparser
+
+$ sudo -H pip install pyroute2
+
+$ sudo apt-get install python-configparser python-pyroute2
+
+-> vá ao repositório dronevideo:
+	
+	- Copie o conteudo de drone_wifibroadcast.cfg no drone para:
+
+		/etc/wifibroadcast.cfg
+
+	- Copie o conteudo de gs_wifibroadcast.cfg no computador de terra para:
+
+		/etc/wifibroadcast.cfg
+
+$ sudo make
+
+-> Colocar as chaves de segurança no drone e na GS
+
+-> Vá no repositório, de git clone no Kernel patched e compile.
+
+sudo make
+sudo make install
+
+
+-> lembre-se de editar os scripts rx_standalone e tx_standalone para trocar a frequência de transmissao.
+No skyrats utilizamos 2.4GHz
